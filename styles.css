@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Stylish', sans-serif;
+}
+
+button{
+
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Stylish', sans-serif;
+	border-radius: 20px;
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: blue;
+	margin: 10px;
+	outline: none;
+}
+
+.container{
+	padding: 20px;
+	display: flex;
+}
+.left{
+	display: block;
+}
+
+.selected{
+	background-color: yellow;
+}
+
+.right{
+	width: 100%;
+}
+
+.top, .center, .bottom, .mid-center{
+	width: 100%;
+}
+
+
+.total{
+	font-size: 35px;
+	width: 30%;
+	height: 150px;
+	background: #780206;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */	
+	background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mid-center{
+	padding-left: 80px; 
+}
+
+.circle{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: #f44b42;
+}
+
+.select-exams{
+	background-color: #42f4eb;
+	width: 100%;
+}
+
+.last{
+	width: 45%;
+	height: 200px;
+	font-size: 50px;
+}
+
+#purchases{
+	background-color: #aaf442;
+}
+
+#plan{
+	background-color: #f44242;
+}
